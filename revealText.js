@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const spans = heading.querySelectorAll("span");
 
     gsap.from(spans, {
-      y: 50,
+      y: 30,
       opacity: 0,
       stagger: 0.08,
-      duration: 0.9,
+      duration: 0.4,
       ease: "power3.out",
       scrollTrigger: {
         trigger: heading,
