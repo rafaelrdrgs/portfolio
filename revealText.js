@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const text = heading.textContent;
     heading.innerHTML = "";
 
-    text.split("").forEach(char => {
+    text.split("").forEach(words => {
       const span = document.createElement("span");
-      span.textContent = char;
+      span.textContent = words;
       span.style.display = "inline-block";
       heading.appendChild(span);
     });
